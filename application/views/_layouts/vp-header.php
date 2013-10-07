@@ -7,6 +7,7 @@
 	<meta charset="utf-8">
 	<title><?php echo $meta_title ?> | <?php echo $this->config->item("app_name"); ?></title>
 	<meta name="viewport" content="width=device-width,initial-scale=1">
+	<link rel="icon" type="image/png" href="<?php echo base_url() ?>assets/img/favico.png" />
 		<!--[if lte IE 8]>
 	    <link rel="stylesheet" href="css/ie.css" media="screen">
 	    <link rel="stylesheet" href="css/print.css" media="print">
