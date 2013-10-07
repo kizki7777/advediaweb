@@ -86,7 +86,7 @@
 	</div>
 </section>
 
-<section  class="page links--red page--overflow"  >
+<!-- <section  class="page links--red page--overflow"  >
 	<div class="page__body constrict">
 		<article class="copy-block copy-block--right">
 			<h1 class="block-heading">04</h1>
@@ -94,9 +94,26 @@
 			<h2 class="block-heading">Digital Media Placement</h2>			
 		</article>
 	</div>
+</section> -->
+
+<section  class="page links--red page--overflow">
+	<div class="page__body constrict">
+		<article class="copy-block copy-block--right">
+			<h1 class="block-heading">04</h1>
+			<br>
+			<h2 class="block-heading">Digital Media Placement</h2>
+		</article>
+
+		<div class="product product--left product--macbook">
+			<article class="copy-block copy-block--right small-article">
+				<p>Melihat perkembangan tren konsumen Indonesia, Advedia Solusi Informatika ikut mendukung para pelaku pemasaran dalam rangka meningkatkan jumlah eksposure dari iklan mereka melalui jasa layanan Media Placement berbasis internet. Kami memiliki sejumlah alternatif saluran media yang dapat dipilih dan disesuaikan berdasarkan karakteristik dari konsumen produk Anda.</p>
+			</article>			
+		</div>		
+		<img src="<?php echo base_url() ?>assets/img/placement.png" alt="South Tees" class="product__mount">
+	</div>
 </section>
 
-<h2 class="dividing-header-link">
+<h2 class="dividing-header-link-2">
 	<a class="btn-link" href="#">see our works</a>
 </h2>
 
