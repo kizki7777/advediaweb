@@ -1,0 +1,88 @@
+<!doctype html>
+<!--[if lt IE 7]><html class="viewport no-js lt-ie9 lt-ie8 lt-ie7" lang="en"><![endif]-->
+<!--[if IE 7]><html class="viewport no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
+<!--[if IE 8]><html class="viewport no-js lt-ie9" lang="en"><![endif]-->
+<!--[if gt IE 8]><!--><html class="viewport no-js no-ie" lang="en"><!--<![endif]-->
+<head>
+	<meta charset="utf-8">
+	<title><?php echo $meta_title ?> | <?php echo $this->config->item("app_name"); ?></title>
+	<meta name="viewport" content="width=device-width,initial-scale=1">
+		<!--[if lte IE 8]>
+	    <link rel="stylesheet" href="css/ie.css" media="screen">
+	    <link rel="stylesheet" href="css/print.css" media="print">
+	    <script src="js/libs/selectivizr-min.js"></script>
+		<![endif]-->
+		<!--[if gt IE 8]><!-->
+	    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/screen.css">
+		<!--<![endif]-->
+		<link rel="stylesheet" href="<?php echo base_url() ?>assets/css/print.css" media="print">
+		<script src="<?php echo base_url() ?>assets/js/libs/modernizr-2.5.3.min.js"></script>
+		<script type="text/javascript" src="<?php echo base_url() ?>assets/js/fonts/jbs2kbu.js"></script>
+		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+
+		<!-- slider -->
+		<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/style2.css">
+		<noscript>
+			<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/nojs.css">
+		</noscript>
+		<script type="text/javascript" src="<?php echo base_url()?>assets/js/slider/modernizr.custom.28468.js"></script>
+		<script type="text/javascript" src="<?php echo base_url()?>assets/js/slider/jquery-1.7.1.min.js"></script>
+		<script type="text/javascript" src="<?php echo base_url()?>assets/js/slider/jquery.cslider.js"></script>
+		<script type="text/javascript">
+			$(function() {
+			
+				$('#da-slider').cslider({
+					autoplay	: true,
+					bgincrement	: 450
+				});
+			
+			});
+		</script>
+</head>
+
+	<body class="<?php echo $body_class; ?>">
+		<div class="outer">
+			<div id="inner-wrap">
+
+				<div class="container">
+					
+						<header class="header <?php echo $head_constrict; ?>" role="banner">
+							
+							<div class="logo">
+								<img width="200" height="71" class="logo__graphic" src="<?php echo base_url() ?>assets/img/logo1.png" alt="Mixd" />
+								<!-- <span class="logo__tagline"><?php echo $this->config->item("app_tagline"); ?></span> -->
+							</div>
+											
+							<?php $this->load->view('_menu/top'); ?>
+							
+						</header>
+
+						<div class="content" role="main">
+							<div class="figure figure--pencil">
+								<div class="figure__wrap">
+									<figure class="figure__inner">
+										<img src="<?php echo base_url() ?>assets/img/pencil-full.png" alt="Beautiful form, perfect function" class="figure__object">
+										<figcaption class="figure__caption">
+											<h1>idea of<br/>simplicity</h1>
+											<div class="caption__inner ">
+												<p class="">"Aku berfikir maka aku ada"<br> &ndash; rene deschartes</p>
+												<p class="">Dan kami percaya, bahwa keberadaan kami dapat dimaknai sebagai sebuah ide pencapaian kualitas hidup di dalam sebuah kesederhanaan.</p>
+												<a href="<?php echo site_url('approach') ?>" class="btn">See how we work</a>
+											</div>
+										</figcaption>
+									</figure>
+								</div>
+							</div>
+						</div>
+					
+				</div>
+
+			</div>
+		</div>
+
+		<script type='text/javascript' src='js/jquery.min.js'></script>
+		<script type='text/javascript' src='js/scripts.min.js'></script>
+
+		<div class="back-to-top icon--top" href="#top"></div>
+	</body>
+</html>
