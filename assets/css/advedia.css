@@ -89,6 +89,14 @@ nav#nav ul.nav--primary li a{
 	color:#02375F;
 }
 
+.adv-custom{
+	background: url(../img/custom.jpg) no-repeat;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size:100% 100%;
+}
+
 .adv-grey p, .adv-yellow p, .adv-dark-grey p, .adv-light-grey p{
 	line-height: 1.5;
 	font-family: 'Conv_Roboto-Thin', Arial;
