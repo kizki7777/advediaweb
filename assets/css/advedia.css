@@ -97,6 +97,41 @@ nav#nav ul.nav--primary li a{
 	background-size:100% 100%;
 }
 
+.adv-custom-distinct{
+	background: url(../img/custom-distinct.jpg) no-repeat;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size:100% 100%;
+}
+
+.adv-custom-yellow{
+	background: url(../img/custom-yellow.jpg) no-repeat;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size:100% 100%;
+	color: #fff;
+}
+
+.adv-custom-white{
+	background: url(../img/custom-white.jpg) no-repeat;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size:100% 100%;
+	color: #03375E;
+}
+
+.adv-custom-md{
+	background: url(../img/custom-md.jpg) no-repeat;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size:100% 100%;
+	color: #03375E;
+}
+
 .adv-grey p, .adv-yellow p, .adv-dark-grey p, .adv-light-grey p{
 	line-height: 1.5;
 	font-family: 'Conv_Roboto-Thin', Arial;

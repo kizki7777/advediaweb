@@ -4,7 +4,9 @@
 	<header class="header constrict" role="banner">
 		<?php $this->load->view('_menu/top'); ?>
 	</header>
+</div>
 
+<section  class="page bg-yellow links--red page--overflow adv-custom-distinct">
 	<div class="page__body constrict greeting">
 		<div class="welcome-right">
 			<h1>Distinction That Matters</h1>
@@ -14,11 +16,11 @@
 			<img src="<?php echo base_url() ?>assets/img/vs.png">
 		</div>
 	</div>
-</div>
+</section>
 
 <h2 class="dividing-header text-yellow">our works</h2>
 
-<section  class="page bg--yellow links--red page--overflow"  >	
+<section  class="page links--red page--overflow adv-custom-yellow">	
 	<div class="page__body constrict">
 		<article class="copy-block copy-block--right">
 			<h2 class="block-heading">South Tees Hospitals</h2>
@@ -33,7 +35,7 @@
 	</div>
 </section>
 
-<section  class="page bg--white links--red page--overflow"  >	
+<section  class="page links--red page--overflow adv-custom-white">	
 	<div class="page__body constrict">
 		<article class="copy-block copy-block--left">
 			<h2 class="block-heading">South Tees Hospitals</h2>
@@ -48,7 +50,7 @@
 	</div>
 </section>
 
-<section  class="page bg--blue links--red page--overflow"  >	
+<section  class="page links--red page--overflow adv-custom-md">	
 	<div class="page__body constrict">
 		<article class="copy-block copy-block--right">
 			<h2 class="block-heading">South Tees Hospitals</h2>
