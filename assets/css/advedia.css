@@ -110,7 +110,12 @@ nav#nav ul.nav--primary li a{
 	-webkit-background-size: 100% 100%;
 	-moz-background-size: 100% 100%;
 	-o-background-size: 100% 100%;
-	background-size:100% 100%;	
+	background-size:100% 100%;
+	margin-top: 5px;	
+}
+
+#inner-wrap{
+	background: #D62323;
 }
 
 .adv-custom-yellow{
