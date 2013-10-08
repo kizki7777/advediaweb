@@ -3005,6 +3005,7 @@ a:hover {
 	line-height:0;
 	float:right;
 	margin-right:.15em;
+	margin-top: 20px;
 }
 
 @media screen and (min-width: 30em) {
@@ -3071,9 +3072,9 @@ a:hover {
 .panel__header:after {
 	display:block;
 	content:"";
-	/*width:80px;
+	width:80px;
 	height:5px;
-	background-color:#FFFFFF;*/
+	background-color:#BBBBBB;
 	position:absolute;
 	bottom:0;
 	left:50%;
@@ -3116,7 +3117,8 @@ a:hover {
 
 @media screen and (min-width: 30em) {
 	.panel__hgroup .panel__title {
-	font-size:1.5em;
+	font-size:1.000em;
+	color: #E8090E;
 }
 
 }.panel__title--small {

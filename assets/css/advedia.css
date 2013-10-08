@@ -29,6 +29,10 @@ nav#nav ul.nav--primary li a{
 	margin: 0 auto;
 }
 
+.welcome-center{
+	text-align: center;
+}
+
 .welcome-right{
 	float: right;
 	width: 60%;
@@ -43,6 +47,10 @@ nav#nav ul.nav--primary li a{
 .welcome-left{
 	width: 35%;
 	float: left;
+}
+
+.adv-transparent{
+	background: transparent;
 }
 
 .adv-grey{
@@ -110,8 +118,15 @@ nav#nav ul.nav--primary li a{
 	-webkit-background-size: 100% 100%;
 	-moz-background-size: 100% 100%;
 	-o-background-size: 100% 100%;
+	background-size:100% 100%;	
+}
+
+.adv-custom-trust{
+	background: url(../img/custom-trust.jpg) no-repeat;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
 	background-size:100% 100%;
-	margin-top: 5px;	
 }
 
 #inner-wrap{

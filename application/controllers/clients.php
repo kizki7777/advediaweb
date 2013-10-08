@@ -4,7 +4,16 @@ class Clients extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('clients');
+		// page title
+		$data['meta_title'] = 'Clients';
+
+		// css class
+		$data['body_class'] = 'portfolio';
+
+		// menu active
+		$data['current'] = 'clients';
+
+		$this->load->view('clients', $data);
 	}
 }
 

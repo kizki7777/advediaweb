@@ -1,22 +1,24 @@
 <?php $this->load->view('_layouts/header'); ?>
 
-<div class="page bg--red" style="background-image:url()">
+
+
+<div class="adv-custom-distinct">
 	<header class="header constrict" role="banner">
 		<?php $this->load->view('_menu/top'); ?>
 	</header>
-</div>
 
-<section  class="page links--red page--overflow adv-custom-distinct">
-	<div class="page__body constrict greeting">
-		<div class="welcome-right">
-			<h1>Distinction That Matters</h1>
-			<p>Kami memandang apa yang kami lakukan bukan sebuah keharusan melainkan sebuah kesempatan untuk melayani. Perbedaan cara pandang ini membawa kami pada proses pemberian roh/makna dari setiap produk yang kami hasilkan.</p>
+	<section  class="page links--red page--overflow adv-transparent">
+		<div class="page__body constrict greeting">
+			<div class="welcome-right">
+				<h1>Distinction That Matters</h1>
+				<p>Kami memandang apa yang kami lakukan bukan sebuah keharusan melainkan sebuah kesempatan untuk melayani. Perbedaan cara pandang ini membawa kami pada proses pemberian roh/makna dari setiap produk yang kami hasilkan.</p>
+			</div>
+			<div class="welcome-left">
+				<img src="<?php echo base_url() ?>assets/img/vs.png">
+			</div>
 		</div>
-		<div class="welcome-left">
-			<img src="<?php echo base_url() ?>assets/img/vs.png">
-		</div>
-	</div>
-</section>
+	</section>
+</div>
 
 <h2 class="dividing-header text-yellow">our works</h2>
 
@@ -102,7 +104,7 @@
 			<h4 class="block-heading">Kementerian Pembangunan Daerah Tertinggal</h4>
 			<p class="intro">ui/ux design | development</p>
 			<p>Dalam rangka mendukung program kerja kementrian PDT, kami dipercaya untuk membangun website KPDT. Website ini berfungsi sebagai sebuah informasi tentang seluruh kegiatan yang dilakukan oleh kementrian PDT.</p>
-			<a href="http://www.u-ad.info" class="adv-visit-btn"></a>			
+			<a href="http://www.kemenegpdt.go.id/" class="adv-visit-btn"></a>			
 		</article>
 		<div class="product product--right product--macbook">
 			<img src="<?php echo base_url() ?>assets/img/kpdt-ss.png" alt="South Tees" class="product__mount">
