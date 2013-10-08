@@ -33,14 +33,14 @@
 
 <section  class="page bg--grey links--red page--overflow adv-dark-grey"  >
 	<div class="page__body constrict">
-		<article class="copy-block copy-block--right">
+		<article class="copy-block copy-block--left">
 			<h1 class="block-heading">02</h1>
 			<br>
 			<h2 class="block-heading">Analysis</h2>
 			<p>Pada tahapan ini kami mencoba untuk menemukan kesenjangan atau perumusan masalah dalam hal pemenuhan kebutuhan dan harapan klien berdasarkan kondisi aktual perusahaan.</p>
 		</article>
 
-		<div class="product product--left product--macbook">
+		<div class="product product--right product--macbook">
 			<img src="<?php echo base_url() ?>assets/img/big-ruler.png" alt="South Tees" class="product__mount">
 		</div>
 	</div>
@@ -63,14 +63,14 @@
 
 <section  class="page bg--red links--red page--overflow"  >
 	<div class="page__body constrict">
-		<article class="copy-block copy-block--right">
+		<article class="copy-block copy-block--left">
 			<h1 class="block-heading">04</h1>
 			<br>
 			<h2 class="block-heading">Develop</h2>
 			<p>Tahap terakhir adalah penuangan visualisasi rancangan desain dan konten ke dalam logika dan bahasa pemrograman yang sesuai. Kemudian perbaikan yang berkelanjutan untuk mendapatkan kualitas yang sesuai dengan permintaan klien.</p>
 		</article>
 
-		<div class="product product--left product--macbook">
+		<div class="product product--right product--macbook">
 			<img src="<?php echo base_url() ?>assets/img/big-helm.png" alt="South Tees" class="product__mount">
 		</div>
 	</div>

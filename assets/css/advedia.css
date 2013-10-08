@@ -392,7 +392,21 @@ a.adv-visit-btn{
 	font-weight: lighter;
 }
 
-a.adv-visit-btn:hover{
+a.adv-send-btn{
+	background:url(../img/btn-send.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size:100% 100%;
+	padding: 15px 100px;
+	text-align: left;
+	text-transform: uppercase;
+	font-family:"brandon-grotesque", sans-serif;
+	letter-spacing:.1em;
+	font-weight: lighter;
+}
+
+a.adv-visit-btn:hover, a.adv-send-btn:hover{
 	border: none;
 }
 
@@ -427,4 +441,14 @@ a.adv-visit-btn:hover{
 .adv-prolog img.logo-landscape{
 	margin-bottom: 20px;
 	width: 37%;
+}
+
+.all-centered img{
+	display: block;
+	margin: 0 auto;
+	margin-bottom: 20px;
+}
+
+.contact-form, .contact-form span, p.noted{
+	color: #C81E1F;
 }
