@@ -8,11 +8,19 @@
 
 nav#nav ul.nav--primary li a{
 	font-family: 'Conv_Roboto-Thin', Arial;
-	text-transform: uppercase;
+	text-transform: uppercase;	
 }
 
 *{
 	font-family: 'Conv_Roboto-Thin', Arial;
+}
+
+.fr{
+	float: right;
+}
+
+.fl{
+	float: left;
 }
 
 .greeting .page-welcome{
@@ -102,7 +110,7 @@ nav#nav ul.nav--primary li a{
 	-webkit-background-size: 100% 100%;
 	-moz-background-size: 100% 100%;
 	-o-background-size: 100% 100%;
-	background-size:100% 100%;
+	background-size:100% 100%;	
 }
 
 .adv-custom-yellow{
@@ -130,6 +138,33 @@ nav#nav ul.nav--primary li a{
 	-o-background-size: 100% 100%;
 	background-size:100% 100%;
 	color: #03375E;
+}
+
+.adv-custom-uni{
+	background: url(../img/custom-uni.jpg) no-repeat;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size:100% 100%;
+	color: #0081C2;
+}
+
+.adv-custom-kpdt{
+	background: url(../img/custom-kpdt.jpg) no-repeat;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size:100% 100%;
+	color: #000
+}
+
+.adv-custom-canda{
+	background: url(../img/custom-canda.jpg) no-repeat;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size:100% 100%;
+	color: #000
 }
 
 .adv-grey p, .adv-yellow p, .adv-dark-grey p, .adv-light-grey p{
@@ -321,4 +356,55 @@ section.panel-desc h2{
 
 .text-yellow{
 	color: #F2A500;
+}
+
+a.adv-visit-btn{
+	background:url(../img/bg-link.png) no-repeat;
+	-webkit-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-o-background-size: 100% 100%;
+	background-size:100% 100%;
+	padding: 10px 60px;
+	text-align: left;
+	text-transform: uppercase;
+	font-family:"brandon-grotesque", sans-serif;
+	letter-spacing:.1em;
+	font-weight: lighter;
+}
+
+a.adv-visit-btn:hover{
+	border: none;
+}
+
+.adv-prolog h2{
+	font-weight: lighter;
+	font-size: 50px;
+	text-shadow: 2px 0px 2px rgba(150, 150, 150, 1);
+}
+
+.adv-prolog h4{
+	font-weight: lighter;
+	font-size: 35px;
+	text-shadow: 2px 0px 2px rgba(150, 150, 150, 1);
+}
+
+.adv-prolog p.intro{
+	font-size: 1.4em;
+	font-weight: normal;
+}
+
+.adv-prolog p{
+	font-size: 16px;
+	text-align: justify;
+}
+
+.adv-prolog img.logo-box{
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 17%;
+}
+
+.adv-prolog img.logo-landscape{
+	margin-bottom: 20px;
+	width: 37%;
 }
