@@ -4,7 +4,16 @@ class Work extends CI_Controller {
 
 	public function index()
 	{
-		$this->load->view('work');
+		// page title
+		$data['meta_title'] = 'Works';
+
+		// css class
+		$data['body_class'] = 'portfolio';
+
+		// menu active
+		$data['current'] = 'work';
+
+		$this->load->view('work', $data);
 	}
 }
 

@@ -86,16 +86,6 @@
 	</div>
 </section>
 
-<!-- <section  class="page links--red page--overflow"  >
-	<div class="page__body constrict">
-		<article class="copy-block copy-block--right">
-			<h1 class="block-heading">04</h1>
-			<br>
-			<h2 class="block-heading">Digital Media Placement</h2>			
-		</article>
-	</div>
-</section> -->
-
 <section  class="page links--red page--overflow adv-custom">
 	<div class="page__body constrict">
 		<article class="copy-block copy-block--right">
@@ -120,8 +110,7 @@
 <footer class="master-footer bg--red none ">
 	<div class="container">
 		<div class="logo logo--footer">
-			<img width="154" height="54" class="logo__graphic" src="<?php echo base_url() ?>assets/img/logo1.png" alt="Mixd">
-			<!-- <span class="logo__tagline"><?php echo $this->config->item("app_tagline"); ?></span> -->
+			<img width="154" height="54" class="logo__graphic" src="<?php echo base_url() ?>assets/img/logo1.png" alt="Advedia">
 		</div>
 		<div class="footer-info">
 			<small class="footer__smallprint">
