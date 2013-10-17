@@ -16,10 +16,18 @@
 	<!--[if gt IE 8]><!-->
 	    <link rel="stylesheet" href="<?php echo base_url() ?>assets/css/screen.css">
 	<!--<![endif]-->
+
+	<!-- Leaflet JS MAP -->
+	<link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.css" />
+	 <!--[if lte IE 8]>
+	     <link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.ie.css" />
+	 <![endif]-->
+
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/css/print.css" media="print">
 	<link rel="stylesheet" href="<?php echo base_url() ?>assets/css/advedia.css" media="screen">
 	<script src="<?php echo base_url() ?>assets/js/libs/modernizr-2.5.3.min.js"></script>
 	<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+	<script src="http://cdn.leafletjs.com/leaflet-0.6.4/leaflet.js"></script>
 </head>
 
 	<body class="<?php echo $body_class; ?>">

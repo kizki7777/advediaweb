@@ -452,3 +452,14 @@ a.adv-visit-btn:hover, a.adv-send-btn:hover{
 .contact-form, .contact-form span, p.noted{
 	color: #C81E1F;
 }
+
+.map-notes-block{
+	margin-bottom: 200px;
+}
+
+h1.map-notes{
+	text-align: center;
+	font-size: 2.813em;
+	line-height: 1;
+	color: #fff;
+}
