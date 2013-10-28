@@ -81,7 +81,7 @@
 		<article class="copy-block copy-block--right">
 			<h1 class="block-heading">05</h1>
 			<br>
-			<h2 class="block-heading">User Acception Test</h2>
+			<h2 class="block-heading">Testing</h2>
 			<p><?php echo lang('content.approach.6'); ?></p>
 		</article>
 
