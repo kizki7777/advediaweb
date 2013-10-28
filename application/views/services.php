@@ -31,7 +31,7 @@
 
 <section  class="page bg--grey links--red page--overflow adv-white"  >
 	<div class="page__body constrict">
-		<article class="copy-block copy-block--right">
+		<article class="copy-block copy-block--left">
 			<h1 class="block-heading">02</h1>
 			<br>
 			<h2 class="block-heading">Web Design & Development</h2>
