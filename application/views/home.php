@@ -1,3 +1,11 @@
+<!-- background rotator -->
+<?php
+  $bg = array('#D62323', '#34AB00', '#252525', '#5BC2CE', '#1B49BE'); // array of filenames
+
+  $i = rand(0, count($bg)-1); // generate random number size of the array
+  $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen
+?>
+
 <!doctype html>
 <!--[if lt IE 7]><html class="viewport no-js lt-ie9 lt-ie8 lt-ie7" lang="en"><![endif]-->
 <!--[if IE 7]><html class="viewport no-js lt-ie9 lt-ie8" lang="en"><![endif]-->
@@ -33,35 +41,18 @@
 			
 			});
 		</script>
-		<!-- ./parallax slider -->
-
-		<!--<script type="text/javascript" src="<?php echo base_url()?>assets/js/jquery.color.js"></script>-->
-
-		<script>
-			 $(document).ready(function() {
-			  var rainbows = [
-			    "#D62323";
-				"#007BED";
-				"#F4A500";
-				"#34AB00";
-				"#1B49BE";
-			  ];
-			  
-			  var property   = "background:";
-			  var randNum     = Math.floor(Math.random() * (8 - 0 + 1)) + 0; /* http://stackoverflow.com/a/1527834/477958 */
-			  
-			  var newRainbows = property + rainbows[randNum];
-
-			  $('#welcome').attr('style',newRainbows);
-			});
-		</script>
 		<script src="<?php echo base_url() ?>assets/js/libs/modernizr-2.5.3.min.js"></script>
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
+		<style type="text/css">		
+		body{
+			background: <?php echo $selectedBg; ?>;
+		}
+		</style>
 </head>
 
-	<body id="welcome" style="background:#D62323">
+	<body>
 		<div class="outer">
-			<div id="inner-wrap">
+			<div id="">
 
 				<!-- slider -->
 				<link rel="stylesheet" type="text/css" href="<?php echo base_url()?>assets/css/slider/slide.css">		
