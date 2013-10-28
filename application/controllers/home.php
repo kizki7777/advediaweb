@@ -8,7 +8,8 @@ class Home extends CI_Controller {
 		$data['meta_title'] = 'Home';
 
 		// css class
-		$data['body_class'] = 'bg--red';
+		$data['body_class'] = '';
+		$data['body_id'] = 'rainbow';
 
 		// menu active
 		$data['current'] = 'home';

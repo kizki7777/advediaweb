@@ -339,7 +339,9 @@ html {
 	font-size:97.5%;
 }
 
-}@media screen and (min-width: 72em) {
+}
+
+@media screen and (min-width: 72em) {
 	html {
 	font-size:100%;
 }
@@ -378,7 +380,9 @@ p, ul, ol, dl, hr, form, table, blockquote, pre {
 	font-size:1.2em;
 }
 
-}@media screen and (min-width: 83em) {
+}
+
+@media screen and (min-width: 83em) {
 	p, ul, ol, dl, hr, form, table, blockquote, pre {
 	font-size:1.4em;
 }
@@ -407,7 +411,9 @@ h2, .as-h2 {
 	font-size:1.875em;
 }
 
-}h3, .as-h3 {
+}
+
+h3, .as-h3 {
 	line-height:1.5;
 	font-size:1.25em;
 	margin-bottom:.4em;
@@ -715,15 +721,17 @@ a:hover {
 
 @media screen and (min-width: 58.75em) {
 	.viewport {
-	height:100%;
-	overflow-y:hidden;
+		height:100%;
+		overflow-y:hidden;
+	}
+
+	.viewport body {
+		height:100%;
+	}
+
 }
 
-.viewport body {
-	height:100%;
-}
-
-}@media (min-height: 35em) {
+@media (min-height: 35em) {
 	.viewport {
 	height:100%;
 }
@@ -748,17 +756,23 @@ a:hover {
 	width:90%;
 }
 
-}@media screen and (min-width: 83em) {
+}
+
+@media screen and (min-width: 83em) {
 	.bg--clean .constrict, .bg--clean .container {
 	width:85%;
 }
 
-}@media screen and (min-width: 68em) {
+}
+
+@media screen and (min-width: 68em) {
 	.constrict, .container {
 	width:90%;
 }
 
-}@media screen and (min-width: 83em) {
+}
+
+@media screen and (min-width: 83em) {
 	.constrict, .container {
 	width:85%;
 }
@@ -791,13 +805,17 @@ a:hover {
 	margin-bottom:0;
 }
 
-}@media screen and (min-width: 58.75em) {
+}
+
+@media screen and (min-width: 58.75em) {
 	.header {
 	padding-top:3.2em;
 	position:relative;
 }
 
-}@media screen and (min-width: 72em) {
+}
+
+@media screen and (min-width: 72em) {
 	.header {
 	padding-top:4.6875em;
 }
@@ -813,7 +831,9 @@ a:hover {
 	top:13em;
 }
 
-}@media screen and (min-width: 72em) {
+}
+
+@media screen and (min-width: 72em) {
 	.content {
 	top:11em;
 }
@@ -862,7 +882,9 @@ a:hover {
 	margin-bottom:6em;
 }
 
-}@media screen and (min-width: 68em) {
+}
+
+@media screen and (min-width: 68em) {
 	.page__body--pad {
 	margin-top:13em;
 	margin-bottom:13em;
@@ -879,7 +901,9 @@ a:hover {
 	margin-bottom:4em;
 }
 
-}@media screen and (min-width: 68em) {
+}
+
+@media screen and (min-width: 68em) {
 	.page__body--short {
 	margin-top:6em;
 	margin-bottom:6em;
@@ -904,7 +928,9 @@ a:hover {
 	margin-top:3em;
 }
 
-}@media screen and (min-width: 58.75em) {
+}
+
+@media screen and (min-width: 58.75em) {
 	.page:first-child .page__body {
 	margin-top:8em;
 }
@@ -927,7 +953,9 @@ a:hover {
 	padding-right:0;
 }
 
-}@media screen and (min-width: 72em) {
+}
+
+@media screen and (min-width: 72em) {
 	.brick {
 	width:25%;
 }
@@ -1035,7 +1063,9 @@ a:hover {
 	transform:translate3d(40%,  0,  0);
 }
 
-}@media screen and (max-width: 38em) {
+}
+
+@media screen and (max-width: 38em) {
 	.js-ready #nav {
 	width:80%;
 	left:-80%;
