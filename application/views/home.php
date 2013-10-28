@@ -1,6 +1,6 @@
-<!-- background rotator -->
 <?php
-  $bg = array('#D62323', '#34AB00', '#252525', '#5BC2CE', '#1B49BE'); // array of filenames
+  // background rotator
+  $bg = array('#D62323', '#34AB00', '#252525', '#1B49BE'); // array of filenames
 
   $i = rand(0, count($bg)-1); // generate random number size of the array
   $selectedBg = "$bg[$i]"; // set variable equal to which random filename was chosen
@@ -80,7 +80,7 @@
 									<p><?php echo lang('content.home.1'); ?></p>
 								</div>
 								<div class="da-slide">
-									<h2>Designizer</h2>
+									<h2>Design</h2>
 									<p><?php echo lang('content.home.2'); ?></p>
 									<div class="da-img">
 										<img src="<?php echo base_url()?>assets/img/2.png" alt="image01" />
