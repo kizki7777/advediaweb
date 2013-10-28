@@ -8,7 +8,7 @@
 	<div class="page__body constrict greeting">
 		<div class="welcome-right">
 			<h1>Appreciate</h1>
-			<p>Kami meyakini bahwa setiap perusahaan memiliki kebutuhan yang unik dan berbeda. Kemauan dan kemampuan untuk memahami mengarahkan kami pada penyediaan solusi yang berarti.</p>
+			<p><?php echo lang('content.approach.1'); ?></p>
 		</div>
 		<div class="welcome-left">
 			<img src="<?php echo base_url() ?>assets/img/indera.png">
@@ -22,7 +22,7 @@
 			<h1 class="block-heading">01</h1>
 			<br>
 			<h2 class="block-heading">Research</h2>
-			<p>Tahapan ini merupakan tahapan awal yang berdampak besar terhadap tahapan berikutnya. Pada tahapan ini, kami mencoba untuk memahami dan menggali informasi mengenai apa yang menjadi kebutuhan klien dalam hal teknologi informasi dan komunikasi. Hal tersebut dikombinasikan dengan riset mengenai perilaku konsumen yang terkait dengan perusahaan. Semuanya itu berujung kepada pemenuhan harapan klien terhadap kami dan apa yang dapat kami lakukan untuk mereka.</p>
+			<p><?php echo lang('content.approach.2'); ?></p>
 		</article>
 
 		<div class="product product--left product--macbook">
@@ -37,7 +37,7 @@
 			<h1 class="block-heading">02</h1>
 			<br>
 			<h2 class="block-heading">Analysis</h2>
-			<p>Pada tahapan ini kami mencoba untuk menemukan kesenjangan atau perumusan masalah dalam hal pemenuhan kebutuhan dan harapan klien berdasarkan kondisi aktual perusahaan.</p>
+			<p><?php echo lang('content.approach.3'); ?></p>
 		</article>
 
 		<div class="product product--right product--macbook">
@@ -52,7 +52,7 @@
 			<h1 class="block-heading">03</h1>
 			<br>
 			<h2 class="block-heading">Visualize</h2>
-			<p>Dari analisa tersebut, kami mencoba untuk memvisualisasikan rancangan dari produk teknologi informasi yang tertuang dalam desain dan konten.</p>
+			<p><?php echo lang('content.approach.4'); ?></p>
 		</article>
 
 		<div class="product product--left product--macbook">
@@ -61,17 +61,32 @@
 	</div>
 </section>
 
-<section  class="page bg--red links--red page--overflow"  >
+<section  class="page links--grey page--overflow"  >
 	<div class="page__body constrict">
 		<article class="copy-block copy-block--left">
 			<h1 class="block-heading">04</h1>
 			<br>
 			<h2 class="block-heading">Develop</h2>
-			<p>Tahap terakhir adalah penuangan visualisasi rancangan desain dan konten ke dalam logika dan bahasa pemrograman yang sesuai. Kemudian perbaikan yang berkelanjutan untuk mendapatkan kualitas yang sesuai dengan permintaan klien.</p>
+			<p><?php echo lang('content.approach.5'); ?></p>
 		</article>
 
 		<div class="product product--right product--macbook">
 			<img src="<?php echo base_url() ?>assets/img/big-helm.png" alt="South Tees" class="product__mount">
+		</div>
+	</div>
+</section>
+
+<section  class="page bg--red links--red page--overflow"  >
+	<div class="page__body constrict">
+		<article class="copy-block copy-block--right">
+			<h1 class="block-heading">05</h1>
+			<br>
+			<h2 class="block-heading">User Acception Test</h2>
+			<p><?php echo lang('content.approach.6'); ?></p>
+		</article>
+
+		<div class="product product--left product--macbook">
+			<img src="<?php echo base_url() ?>assets/img/big-uat.png" alt="South Tees" class="product__mount">
 		</div>
 	</div>
 </section>

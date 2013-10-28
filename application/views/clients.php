@@ -9,7 +9,7 @@
 		<div class="page__body constrict greeting">
 			<div class="welcome-right">
 				<h1>Trust</h1>
-				<p>Kami percaya bahwa kepercayaan merupakan kerja keras yang harus kita upayakan tiap saat. kami bersyukur telah dipercaya oleh rekan perusahaan dalam mendukung kebutuhan mereka dibidang solusi informasi.</p>
+				<p><?php echo lang('content.client.1'); ?></p>		
 			</div>
 		</div>
 	</section>

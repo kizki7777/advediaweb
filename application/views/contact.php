@@ -8,7 +8,7 @@
 	<div class="page__body constrict greeting">
 		<div class="welcome-right">
 			<h1></h1>
-			<p>Kami percaya ada beberapa tipe pengelompokan masalah dengan pendekatan solusi yang berbeda pula. Jika Anda ingin mengetahui dimana letak masalah dan solusi yang berhubungan dengan informatika diperusahaan Anda, percayakan pada kami.</p>
+			<p><?php echo lang('content.contact.1'); ?></p>		
 		</div>
 		<div class="welcome-left">
 			<img src="<?php echo base_url() ?>assets/img/contact.png">
@@ -21,8 +21,7 @@
 		<article class="copy-block copy-block--right all-centered">
 			<img src="<?php echo base_url() ?>assets/img/contact-icon.png" class="">
 			<h2 class="block-heading">Get in Touch</h2>
-			<p>Delapan jam dalam sehari, lima hari dalam seminggu, dua puluh hari dalam sebulan,<br>
-				kami selalu siap untuk melayani kebutuhan anda dalam hal penyediaan solusi informatika.</p>
+			<p><?php echo lang('content.contact.2'); ?></p>
 				<p class="intro noted">Phone: (021) 7509 9949</p>
 				<p class="intro noted">Email: company@advedia.net</p>
 		</article>
@@ -90,15 +89,15 @@
 
 <script>
 
-        var map = L.map('map').setView([-6.27797,106.83020], 16);
+    var map = L.map('map').setView([-6.27797,106.83020], 16);
 
-        L.tileLayer('http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/997/256/{z}/{x}/{y}.png', {
-            maxZoom: 18,
-            attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>'
-        }).addTo(map);
+    L.tileLayer('http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/997/256/{z}/{x}/{y}.png', {
+        maxZoom: 18,
+        attribution: 'Map data &copy; <a href="http://openstreetmap.org">OpenStreetMap</a> contributors, <a href="http://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>, Imagery © <a href="http://cloudmade.com">CloudMade</a>'
+    }).addTo(map);
 
 
-        L.marker([-6.27797,106.83020]).addTo(map)
-            .bindPopup('<div><a href="http://www.google.co.id">Hello</a><br><img src="bit.jpg"></div>').openPopup();
+    L.marker([-6.27797,106.83020]).addTo(map)
+        .bindPopup('<div><a href="http://www.google.co.id">Hello</a><br><img src="bit.jpg"></div>').openPopup();
 
-    </script>
+</script>

@@ -14,4 +14,8 @@
 		<li <?=($current =='clients')?'class="is-current is-current"':''; ?>><a href="<?php echo site_url('clients') ?>">Clients</a></li>
 		<li <?=($current =='contact')?'class="is-current is-current"':''; ?>><a href="<?php echo site_url('contact') ?>">Contact</a></li>
 	</ul>
+	<ul class="lang">
+		<li><a href="<?php echo base_url(); ?>langswitch/switchLanguage/english"><img src="<?php echo base_url() ?>assets/img/en.png"></a></li>
+		<li><a href="<?php echo base_url(); ?>langswitch/switchLanguage/bahasa"><img src="<?php echo base_url() ?>assets/img/id.png"></a></li>
+	</ul>
 </nav>

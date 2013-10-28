@@ -463,3 +463,20 @@ h1.map-notes{
 	line-height: 1;
 	color: #fff;
 }
+
+ul.lang{
+	position:absolute;z-index:10;list-style: none;
+	right: 0;
+	top:10%;
+}
+
+ul.lang li{
+	float: left;
+	margin-left: 10px;
+}
+
+article.block-intro{
+	text-align: center;
+	color: #000;
+	margin-top:-100px;
+}

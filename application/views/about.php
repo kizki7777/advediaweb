@@ -8,7 +8,7 @@
 	<div class="page__body constrict greeting">
 		<div class="welcome-right">
 			<h1>Collaboration</h1>
-			<p>Kami percaya bahwa di dunia ini terdapat keterkaitan antara satu hal dengan yang lainnya. dan kreativitas adalah kemampuan untuk menemukan keterkaitan itu dan mengembangkannya.</p>
+			<p><?php echo lang('content.about.1'); ?></p>
 		</div>
 		<div class="welcome-left">
 			<img src="<?php echo base_url() ?>assets/img/gear.png">
@@ -20,8 +20,8 @@
 	<div class="page__body constrict">
 		<article class="copy-block copy-block--right">
 			<h2 class="block-heading">Prologue</h2>
-			<p>Kami percaya bahwa salah satu modal terbesar perusahaan adalah hubungan baik antar pihak terkait yang diwujudkan dalam komunikasi. Seiring dengan perkembangan teknologi, teknologi komunikasi dan teknologi informasi semakin terkait erat. Keduanya menjadi seperti satu bagian yang tak terpisahkan. Itu artinya perusahaan perlu mengelola kedua hal itu supaya hubungan baik dapat terus tumbuh dan berkembang.</p>
-			<p>Hal itulah yang mendorong keberadaan kami, Advedia Solusi Informatika sebagai sebuah perusahaan yang menawarkan jasa pengelolaan di bidang ICT (Information and Communication Technology) khususnya pengembangan software.</p>
+			<p><?php echo lang('content.about.2'); ?></p>
+			<p><?php echo lang('content.about.3'); ?></p>
 		</article>
 	</div>	
 </section>
@@ -29,15 +29,18 @@
 <h2 class="dividing-header">Become different is a must!</h2>
 
 <section  class="page bg--grey--dark scheme--red "  >	
-	<div class="page__body constrict">
-		<div class="grid">
+	<div class="page__body constrict" style="">
+		<article class="block-intro">
+			<p><?php echo lang('content.about.4'); ?></p>
+		</article>
+		<div class="grid">			
 			<div class="grid__cell unit-1-2--bp1 unit-1-3--bp4">
 				<article class="panel">					
 					<div class="panel__icon"><img src="<?php echo base_url() ?>assets/img/gq.png"></div>
 					<header class="panel__header">
 						<h2 class="panel__title">Good Quality</h2>
 					</header>
-					<p>Kami meyakini bahwa produk yang berkualitas dihasilkan melalui proses yang baik. Oleh karena itu kami menjaga betul setiap tahapan dari setiap pengerjaan produk.</p>
+					<p><?php echo lang('content.about.5'); ?></p>
 				</article>
 			</div>
 			<div class="grid__cell unit-1-2--bp1 unit-1-3--bp4">
@@ -46,7 +49,7 @@
 					<header class="panel__header">
 						<h2 class="panel__title">Good Service</h2>
 					</header>
-					<p>Bagi kami, produk yang baik saja tidak cukup. Oleh karena itu, kami berupaya memaksimalkan kepuasan klien dengan memberikan pelayanan yang baik.</p>
+					<p><?php echo lang('content.about.6'); ?></p>
 				</article>
 			</div>
 			<div class="grid__cell unit-1-2--bp1 unit-1-3--bp4">
@@ -55,7 +58,7 @@
 					<header class="panel__header">
 						<h2 class="panel__title">Professionalism</h2>
 					</header>
-					<p>Dalam proses pengerjaan produk yang berkualitas dan pemenuhan pelayanan yang baik, kita dapat menghindar dari hambatan dan tantangan. Profesionalisme berarti mampu memilih respon yang tepat karena memiliki pengetahuan dan keahlian yang memadai.</p>
+					<p><?php echo lang('content.about.7'); ?></p>
 				</article>
 			</div>
 		</div>

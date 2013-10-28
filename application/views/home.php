@@ -59,7 +59,7 @@
 		<script type="text/javascript">try{Typekit.load();}catch(e){}</script>
 </head>
 
-	<body id="welcome" style="">
+	<body id="welcome" style="background:#D62323">
 		<div class="outer">
 			<div id="inner-wrap">
 
@@ -85,26 +85,26 @@
 									<div class="da-img">
 										<img src="<?php echo base_url()?>assets/img/1.png" alt="image01" />
 									</div>
-									<h2>Idea of Simplicity</h2>
-									<p>Aku berpikir maka aku ada<br>- Rene Descartes<br><br>Dan kami percaya, bahwa keberadaan kami dapat dimaknai sebagai sebuah ide pencapaian kualitas hidup di dalam sebuah kesederhanaan</p>									
+									<h2>Simplicity</h2>
+									<p><?php echo lang('content.home.1'); ?></p>
 								</div>
 								<div class="da-slide">
 									<h2>Designizer</h2>
-									<p>Melalui penentuan fungsi yang mendasari pemilihan isi, bentuk, tata letak dan pengaturan tampilan.</p>
+									<p><?php echo lang('content.home.2'); ?></p>
 									<div class="da-img">
 										<img src="<?php echo base_url()?>assets/img/2.png" alt="image01" />
 									</div>
 								</div>
 								<div class="da-slide">
 									<h2>Development</h2>
-									<p>Serta kombinasi antara logika, alur dan bahasa pemrograman.</p>
+									<p><?php echo lang('content.home.3'); ?></p>
 									<div class="da-img">
 										<img src="<?php echo base_url()?>assets/img/3.png" alt="image01" />
 									</div>
 								</div>
 								<div class="da-slide">
 									<h2>Result</h2>
-									<p>Sehingga menciptakan sebuah alat yang mendukung kesederhanaan dan kemudahan dari pencapaian kualitas hidup.</p>
+									<p><?php echo lang('content.home.4'); ?></p>
 									<a href="#" class="da-link">see our work</a>
 									<div class="da-img">
 										<img src="<?php echo base_url()?>assets/img/4.png" alt="image01" />
