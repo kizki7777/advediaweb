@@ -6,6 +6,10 @@
 	font-style: normal;
 }
 
+.logo{
+	width:200px;margin:10px auto;
+}
+
 nav#nav ul.nav--primary li a{
 	font-family: 'Conv_Roboto-Thin', Arial;
 	text-transform: uppercase;	
@@ -466,7 +470,7 @@ h1.map-notes{
 
 ul.lang{
 	position:absolute;z-index:10;list-style: none;
-	right: 0;
+	right: 13.5%;
 	top:10%;
 }
 

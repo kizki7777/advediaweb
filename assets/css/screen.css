@@ -353,7 +353,8 @@ html {
 	font-family:"chaparral-pro", serif;
 	line-height:1.5;
 	color:#fff;
-	background-color:#eee;
+	/*background-color:#DA2021;*/
+	margin: 0;padding: 0;
 	overflow-x:hidden;
 }
 
@@ -1641,6 +1642,8 @@ a:hover {
 	letter-spacing:.2em;
 	margin-bottom:0;
 	background-color:#FFF;
+	width: 100%;
+	text-align: center;
 }
 
 @media screen and (min-width: 58.75em) {
@@ -1798,7 +1801,7 @@ a:hover {
 
 }.logo {
 	margin-bottom:2em;
-	float:right;
+	float:left;
 }
 
 @media screen and (min-width: 30em) {

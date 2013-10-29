@@ -1,9 +1,7 @@
 <?php $this->load->view('_layouts/header'); ?>
 
-<div class="adv-custom-trust">
-	<header class="header constrict" role="banner">
-		<?php $this->load->view('_menu/top'); ?>
-	</header>
+<div class="page bg--red adv-custom-trust">
+	<?php $this->load->view('_menu/top'); ?>
 
 	<section  class="page links--red page--overflow adv-transparent">
 		<div class="page__body constrict greeting">

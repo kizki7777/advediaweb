@@ -1,9 +1,7 @@
 <?php $this->load->view('_layouts/header'); ?>
 
 <div class="page bg--blue" style="background-image:url()">
-	<header class="header constrict" role="banner">
-		<?php $this->load->view('_menu/top'); ?>
-	</header>
+	<?php $this->load->view('_menu/top'); ?>
 
 	<div class="page__body constrict greeting">
 		<div class="welcome-right">

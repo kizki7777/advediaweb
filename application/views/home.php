@@ -63,10 +63,7 @@
 				<!-- ./slider -->
 
 				<div class="container">
-					
-					<header class="header">							
-						<?php $this->load->view('_menu/top'); ?>			
-					</header>
+					<?php $this->load->view('_menu/top'); ?>
 
 					<div class="content" role="main">
 						<div class="figure figure--pencil">							
