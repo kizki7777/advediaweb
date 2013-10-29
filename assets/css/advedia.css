@@ -471,10 +471,23 @@ h1.map-notes{
 ul.lang{
 	position:absolute;z-index:10;list-style: none;
 	right: 13.5%;
+	float: left;
 	top:10%;
 }
 
 ul.lang li{
+	float: left;
+	margin-left: 10px;
+}
+
+ul.lang-home{
+	position:absolute;z-index:10;list-style: none;
+	right: 7%;
+	float: left;
+	top:10%;
+}
+
+ul.lang-home li{
 	float: left;
 	margin-left: 10px;
 }

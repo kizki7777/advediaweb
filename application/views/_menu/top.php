@@ -1,3 +1,11 @@
+<?php
+if ($current == 'home') {
+	$lang = 'lang-home';
+}else{
+	$lang = 'lang';
+}
+?>
+
 <div class="logo">
 	<a href="<?php echo site_url('home') ?>">
 		<img width="200" height="71" class="" src="<?php echo base_url() ?>assets/img/logo1.png" alt="Advedia" />
@@ -16,7 +24,7 @@
 			<li <?=($current =='clients')?'class="is-current is-current"':''; ?>><a href="<?php echo site_url('clients') ?>">Clients</a></li>
 			<li <?=($current =='contact')?'class="is-current is-current"':''; ?>><a href="<?php echo site_url('contact') ?>">Contact</a></li>
 		</ul>
-		<ul class="lang">
+		<ul class="<?php echo $lang ?>">
 			<li><a href="<?php echo base_url(); ?>langswitch/switchLanguage/english"><img src="<?php echo base_url() ?>assets/img/en.png"></a></li>
 			<li><a href="<?php echo base_url(); ?>langswitch/switchLanguage/bahasa"><img src="<?php echo base_url() ?>assets/img/id.png"></a></li>
 		</ul>
