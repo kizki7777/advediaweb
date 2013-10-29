@@ -80,7 +80,9 @@
 				<div class="grid__cell unit-1-2--bp1 unit-1-3--bp4">
 					<article class="panel">
 						<header class="panel__header">
-							<img class="panel__img" src="<?php echo base_url() ?>assets/img/logo-you-small.png">
+							<a href="#" class="md-trigger" data-modal="modal-1">
+								<img class="panel__img" src="<?php echo base_url() ?>assets/img/logo-you-small.png">
+							</a>
 							<div class="panel__hgroup">
 								<div class="panel__hgroup__inner">
 									<h2 class="panel__title">And You</h2>
@@ -106,5 +108,13 @@
 		</div>
 	</div>
 </footer>
+
+<!-- MODAL DIALOG -->
+<<div class="md-overlay"></div>
+
+<script src="<?php echo base_url() ?>assets/js/classie.js"></script>
+<script src="<?php echo base_url() ?>assets/js/modalEffects.js"></script>
+
+<!-- END OF MODAL DIALOG -->
 
 <?php $this->load->view('_layouts/footer'); ?>
