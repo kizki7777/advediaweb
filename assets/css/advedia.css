@@ -62,7 +62,7 @@ nav#nav ul.nav--primary li a{
 }
 
 .adv-dark-grey{
-	background: url(../img/dark-grey.jpg) no-repeat;
+	background: url(../img/dark-grey-low.jpg) no-repeat;
 	-webkit-background-size: 100% 100%;
 	-moz-background-size: 100% 100%;
 	-o-background-size: 100% 100%;
@@ -479,4 +479,9 @@ article.block-intro{
 	text-align: center;
 	color: #000;
 	margin-top:-100px;
+}
+
+a.no-line:hover{
+	text-shadow: 1px 2px 2px rgba(0, 0, 0, 1);
+	border: none;
 }

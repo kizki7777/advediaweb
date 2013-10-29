@@ -65,7 +65,7 @@
 	<div class="page__body constrict zero-bottom--bp2">
 		<article class="copy-block copy-block--solid zero-bottom bg--transparent no-animation">
 			<header class="copy-block__header map-notes-block">
-				<h1 class="map-notes">Come & Visit Our Digital Playground</h1>
+				<h1 class="map-notes"><a href="#" class="no-line" onclick="zoomArea()">Come & Visit Our Digital Playground</a></h1>
 			</header>
 		</article>
 	</div>
@@ -88,8 +88,15 @@
 <?php $this->load->view('_layouts/footer'); ?>
 
 <script>
+	
+	var zoompoint = 17;
+    var map = L.map('map', {scrollWheelZoom:false}).setView([-6.27797,106.83020], zoompoint);
 
-    var map = L.map('map').setView([-6.27797,106.83020], 16);
+    // zoomArea();
+
+    function zoomArea() {
+    	zoompoint = 27;
+    }
 
     L.tileLayer('http://{s}.tile.cloudmade.com/BC9A493B41014CAABB98F0471D759707/997/256/{z}/{x}/{y}.png', {
         maxZoom: 18,
