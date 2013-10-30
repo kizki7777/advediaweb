@@ -19,10 +19,10 @@ if ($current == 'home') {
 			<li <?=($current =='about')?'class="is-current is-current"':''; ?>><a href="<?php echo site_url('about') ?>">About</a></li>
 			<li <?=($current =='approach')?'class="is-current is-current"':''; ?>><a href="<?php echo site_url('approach') ?>">Approach</a></li>
 			<li <?=($current =='services')?'class="is-current is-current"':''; ?>><a href="<?php echo site_url('services') ?>">Services</a></li>
-			<li <?=($current =='work')?'class="is-current is-current"':''; ?>><a href="<?php echo site_url('work') ?>">Work</a></li>
-			<li <?=($current =='blog')?'class="is-current is-current"':''; ?>><a href="<?php echo site_url('blog') ?>">Blog</a></li>
+			<li <?=($current =='work')?'class="is-current is-current"':''; ?>><a href="<?php echo site_url('work') ?>">Work</a></li>			
 			<li <?=($current =='clients')?'class="is-current is-current"':''; ?>><a href="<?php echo site_url('clients') ?>">Clients</a></li>
 			<li <?=($current =='contact')?'class="is-current is-current"':''; ?>><a href="<?php echo site_url('contact') ?>">Contact</a></li>
+			<li <?=($current =='blog')?'class="is-current is-current"':''; ?>><a href="<?php echo site_url('blog') ?>">Blog</a></li>
 		</ul>
 		<ul class="<?php echo $lang ?>">
 			<li><a href="<?php echo base_url(); ?>langswitch/switchLanguage/english"><img src="<?php echo base_url() ?>assets/img/en.png"></a></li>
