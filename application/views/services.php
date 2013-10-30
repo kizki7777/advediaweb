@@ -5,7 +5,7 @@
 
 	<div class="page__body constrict greeting">
 		<div class="welcome-right">
-			<h1>Essence</h1>
+			<h1>Generosity</h1>
 			<p><?php echo lang('content.service.1') ?></p>
 		</div>
 		<div class="welcome-left">

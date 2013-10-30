@@ -6,6 +6,14 @@
 	font-style: normal;
 }
 
+@font-face {
+    font-family: "Roboto_Condensed";
+    src: url(../fonts/RobotoCondensed-Regular.eot);
+	src: local('☺'), url(../fonts/RobotoCondensed-Regular.woff) format('woff'), url(../fonts/RobotoCondensed-Regular.ttf) format('truetype'), url(../fonts/RobotoCondensed-Regular.svg) format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
 .logo{
 	width:200px;margin:10px auto;
 }
@@ -16,7 +24,7 @@ nav#nav ul.nav--primary li a{
 }
 
 *{
-	font-family: 'Conv_Roboto-Thin', Arial;
+	font-family: 'Roboto_Condensed', Arial;
 }
 
 .fr{
@@ -193,7 +201,7 @@ nav#nav ul.nav--primary li a{
 
 .adv-grey p, .adv-yellow p, .adv-dark-grey p, .adv-light-grey p{
 	line-height: 1.5;
-	font-family: 'Conv_Roboto-Thin', Arial;
+	font-family: 'Roboto_Condensed', Arial;
 	font-size: 1.188em;
 	font-weight: normal;
 }
@@ -501,4 +509,8 @@ article.block-intro{
 a.no-line:hover{
 	text-shadow: 1px 2px 2px rgba(0, 0, 0, 1);
 	border: none;
+}
+
+small.footer__smallprint{
+	font-family: 'Conv_Roboto-Thin', Arial;
 }

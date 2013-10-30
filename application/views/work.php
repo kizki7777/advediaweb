@@ -6,7 +6,7 @@
 	<section  class="page links--red page--overflow adv-transparent">
 		<div class="page__body constrict greeting">
 			<div class="welcome-right">
-				<h1>Distinction That Matters</h1>
+				<h1>Distinction</h1>
 				<p><?php echo lang('content.work.1'); ?></p>
 			</div>
 			<div class="welcome-left">
@@ -77,7 +77,7 @@
 	</div>
 </section>
 
-<section  class="page bg--white links--red page--overflow">	
+<!-- <section  class="page bg--white links--red page--overflow">	
 	<div class="page__body constrict adv-prolog">
 		<article class="copy-block copy-block--right">
 			<img src="<?php echo base_url() ?>assets/img/logo-canda.png" class="logo-landscape">
@@ -106,7 +106,7 @@
 			<img src="<?php echo base_url() ?>assets/img/kpdt-ss.png" alt="South Tees" class="product__mount">
 		</div>
 	</div>
-</section>
+</section> -->
 
 <section  class="page page--overflow">	
 	<div class="page__body constrict adv-prolog">

@@ -29,7 +29,7 @@
 						</header>
 					</article>
 				</div>
-				<div class="grid__cell unit-1-2--bp1 unit-1-3--bp4">
+				<!-- <div class="grid__cell unit-1-2--bp1 unit-1-3--bp4">
 					<article class="panel">
 						<header class="panel__header">
 							<img class="panel__img" src="<?php echo base_url() ?>assets/img/logo-kpdt-small.png">
@@ -40,7 +40,7 @@
 							</div>
 						</header>
 					</article>
-				</div>
+				</div> -->
 				<div class="grid__cell unit-1-2--bp1 unit-1-3--bp4">
 					<article class="panel">
 						<header class="panel__header">
