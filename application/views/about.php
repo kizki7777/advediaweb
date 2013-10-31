@@ -9,7 +9,7 @@
 			<p><?php echo lang('content.about.1'); ?></p>
 		</div>
 		<div class="welcome-left">
-			<img src="<?php echo base_url() ?>assets/img/gear.png">
+			<img src="<?php echo base_url() ?>assets/img/gears2.gif">
 		</div>
 	</div>
 </div>

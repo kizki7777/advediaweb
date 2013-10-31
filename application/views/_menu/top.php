@@ -8,7 +8,7 @@ if ($current == 'home') {
 
 <div class="logo">
 	<a href="<?php echo site_url('home') ?>">
-		<img width="200" height="71" class="" src="<?php echo base_url() ?>assets/img/logo1.png" alt="Advedia" />
+		<img width="200" height="" class="" src="<?php echo base_url() ?>assets/img/logo.png" alt="Advedia" />
 	</a>
 </div>
 

@@ -19,7 +19,7 @@
 }
 
 nav#nav ul.nav--primary li a{
-	font-family: 'Conv_Roboto-Thin', Arial;
+	font-family: 'Roboto_Condensed', Arial;
 	text-transform: uppercase;	
 }
 
@@ -512,5 +512,5 @@ a.no-line:hover{
 }
 
 small.footer__smallprint{
-	font-family: 'Conv_Roboto-Thin', Arial;
+	font-family: 'Roboto_Condensed', Arial;
 }
